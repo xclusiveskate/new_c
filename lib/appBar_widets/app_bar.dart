@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:newc/appBar_widets/body_tab.dart';
 import 'package:newc/appBar_widets/buttons.dart';
 import 'package:newc/appBar_widets/column_row.dart';
 import 'package:newc/appBar_widets/cont_card_sizedbox.dart';
 import 'package:newc/appBar_widets/list_gridview.dart';
+import 'package:newc/appBar_widets/stack.dart';
 import 'package:newc/appBar_widets/text.dart';
 
 class MyAppBar extends StatefulWidget {
@@ -90,8 +92,8 @@ class _MyAppBarState extends State<MyAppBar> {
           ColumnRowWrap(),
           MyButtons(),
           ListGridView(),
-          Text("stack"),
-          Text("bodtab"),
+          StackWidget(),
+          BodyTab(),
         ]),
       ),
     );
