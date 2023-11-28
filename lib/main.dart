@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:newc/Alerts/main_page.dart';
+import 'package:newc/expan_tile.dart';
+
 import 'package:overlay_support/overlay_support.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
           useMaterial3: true,
         ),
-        home: AlertPage(),
+        home: ExpanseTile(),
       ),
     );
   }
