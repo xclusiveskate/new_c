@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:newc/expan_tile.dart';
 
 import 'package:overlay_support/overlay_support.dart';
+
+import 'routing/main_route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
           useMaterial3: true,
         ),
-        home: ExpanseTile(),
+        home: MainRoute(),
       ),
     );
   }
